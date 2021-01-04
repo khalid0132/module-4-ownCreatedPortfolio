@@ -1,0 +1,205 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+section#main{
+   padding-top: 100px;
+   padding-bottom: 100px;
+    background: url("images/counter.jpg") no-repeat, center/cover;
+    height: 300px;
+    position: relative;
+    z-index: 1;
+}
+section#main::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .7;
+    z-index: -1;
+}
+#main .left_side {
+    width: 500px;
+    float: left;
+    z-index: 1;
+}
+#main .left_side h1{
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+#main .left_side h3{
+    padding-bottom: 20px;
+    color: white;
+}
+#main .left_side h3 span{
+    color: blue;
+}
+#main .left_side p{
+    padding-bottom: 40px;
+    color: white;
+}
+#main .left_side span a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    background: linear-gradient(45deg, orange, blue);
+    border: 1px solid blue;
+    padding: 6px 20px;
+    border-radius: 20px;
+    transition: all linear .5s;
+    color: white;
+   
+}
+#main .left_side span a:hover{
+    color: blue;
+    background: linear-gradient(45deg, orange, green);
+    border: 1px solid orange;
+    
+}
+.right_side img{
+    width: 500px;
+    float: right;
+    border-radius: 50%;
+}
+/* Main CSS ends */
+/* Dream CSS starts */
+section#dream{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background:url("images/Bannerrrr.jpg") no-repeat center/cover;
+    height: 300px;
+}
+#dream .left_side img{
+    width: 500px;
+    float: left;
+    border-radius: 50%;
+}
+#dream .right_side{
+    width: 500px;
+    float: left;
+    margin-left: 100px;
+}
+#dream .right_side h1{
+   font: 30px;
+   font-weight: 600;
+   padding-bottom: 20px;
+   color: white;
+}
+#dream .right_side h3{
+   font: 30px;
+   font-weight: 600;
+   padding-bottom: 20px;
+}
+#dream .right_side span{
+    color: orange;
+}
+#dream .right_side p{
+    color: white;
+    padding-bottom: 40px;
+}
+#dream .right_side span a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    background: linear-gradient(45deg, orange, blue);
+    border: 1px solid blue;
+    padding: 6px 20px;
+    border-radius: 20px;
+    transition: all linear .5s;
+    color: white;
+}
+#dream .right_side span a:hover{
+    color: blue;
+    background: linear-gradient(45deg, orange, green);
+    border: 1px solid orange;
+}
+/* Dream CSS ends */
+/* Experience CSS starts */
+#experience{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url("images/banner1.jpg") no-repeat center/cover;
+    position: relative;
+    z-index: -1;
+    height: 300px;
+}
+#experience::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    opacity: .6;
+    z-index: -1;
+    
+}
+#experience .container h1{
+    color: white;
+    z-index: 1;
+    padding-bottom: 20px;
+}
+#experience .left_content{
+    width: 450px;
+    float: left;
+    box-shadow: 10px 10px 40px gray;
+    margin: 2%;
+    padding: 20px;
+    height: 200px;
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, blue, red);
+    border-image-slice: 1;
+    background: transparent;
+    z-index: 1;
+}
+#experience .left_content h1, h3, p{
+    padding-bottom: 20px;
+    z-index: 1;
+    color: white;
+}
+#experience .left_content h3 span{
+    color: blue;
+}
+#experience .right_content{
+    width: 450px;
+    height: 200px;
+    float: left;
+    box-shadow: 10px 10px 40px gray;
+    margin: 2%;
+    padding: 20px;
+
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, red, blue);
+    border-image-slice: 1;
+    background: transparent;
+    z-index: 1;
+}
+#experience .right_content h3 span{
+    color: blue
+}
+footer p{
+   padding-top: 10px;
+    text-align: center;
+    font-size: 10px;
+    color: blue;
+    z-index: 1;
+    
+}
+/* Experience CSS ends */
