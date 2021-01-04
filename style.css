@@ -17,6 +17,7 @@ section#main{
    padding-top: 100px;
    padding-bottom: 100px;
     background: url("images/counter.jpg") no-repeat, center/cover;
+    background-attachment: fixed;
     height: 300px;
     position: relative;
     z-index: 1;
@@ -83,6 +84,7 @@ section#dream{
     padding-top: 100px;
     padding-bottom: 100px;
     background:url("images/Bannerrrr.jpg") no-repeat center/cover;
+    background-attachment: fixed;
     height: 300px;
 }
 #dream .left_side img{
@@ -135,6 +137,7 @@ section#dream{
     padding-top: 100px;
     padding-bottom: 100px;
     background: url("images/banner1.jpg") no-repeat center/cover;
+    background-attachment: fixed;
     position: relative;
     z-index: -1;
     height: 300px;
